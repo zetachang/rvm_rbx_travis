@@ -1,0 +1,12 @@
+language: ruby
+
+sudo: false
+
+matrix:
+  fast_finish: true
+
+  include:
+    - rvm: rbx
+
+script:
+  - "echo 'yeah'"
