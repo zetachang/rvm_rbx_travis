@@ -10,4 +10,6 @@ matrix:
 
 
 script:
+  - "rvm --version"
+  - "rvm list known | grep rbx"
   - "echo 'yeah'"
