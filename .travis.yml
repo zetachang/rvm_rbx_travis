@@ -8,8 +8,9 @@ matrix:
   include:
     - rvm: rbx-2
 
-
-script:
+before_install:
   - "rvm --version"
   - "rvm list known | grep rbx"
+
+script:
   - "echo 'yeah'"
